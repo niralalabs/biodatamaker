@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Create your beautiful wedding biodata online in minutes. Download PDF instantly. Free and easy to use!"
+    />
+    <meta
+      name="keywords"
+      content="Wedding Biodata, Matrimonial Biodata, Marriage Resume, Wedding Profile"
+    />
+    <meta name="author" content="Mulx10" />
+
+    <!-- Open Graph / Facebook -->
+    <meta
+      property="og:title"
+      content="Create Your Wedding Biodata - Free Download"
+    />
+    <meta
+      property="og:description"
+      content="Easily generate a beautiful wedding biodata in minutes. Choose templates, preview, and download for free!"
+    />
+    <meta
+      property="og:image"
+      content="https://yourdomain.com/images/logo.png"
+    />
+    <meta property="og:url" content="https://yourdomain.com/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Create Your Wedding Biodata - Free Download"
+    />
+    <meta
+      name="twitter:description"
+      content="Easily generate a beautiful wedding biodata in minutes. Choose templates, preview, and download for free!"
+    />
+    <meta
+      name="twitter:image"
+      content="https://yourdomain.com/images/logo.png"
+    />
+
+    <title>Biodata Maker – Free Wedding Biodata Generator</title>
+
+    <link rel="icon" href="/logo.png" type="image/png" />
+    <style>
+      .branding {
+        padding: 2rem 1rem 0.5rem;
+      }
+      .branding img {
+        width: 120px;
+        height: auto;
+        border-radius: 12px;
+      }
+      .branding h1 {
+        margin: 0.5rem 0 0;
+        font-size: 2rem;
+        color: #2c3e50;
+      }
+      .branding p {
+        color: #555;
+        font-size: 1rem;
+        margin-top: 0.2rem;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-bifuFUOv.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BAK-w3AJ.css">
+  </head>
+  <body>
+    <!-- Loading screen -->
+    <div id="loader" class="branding">
+      <img src="/logo.png" alt="Biodata Maker Logo" />
+      <h1>Biodata Maker</h1>
+      <p>
+        Create beautiful wedding biodata in minutes – free, fast, and
+        customizable!
+      </p>
+    </div>
+    <div id="root"></div>
+    <script>
+      // Wait for React app to be ready, then hide the loader
+      window.addEventListener("DOMContentLoaded", () => {
+        const checkAppLoaded = setInterval(() => {
+          const root = document.getElementById("root");
+          if (root && root.childNodes.length > 0) {
+            document.getElementById("loader").style.display = "none";
+            root.style.display = "block";
+            clearInterval(checkAppLoaded);
+          }
+        }, 100);
+      });
+    </script>
+  </body>
+</html>
